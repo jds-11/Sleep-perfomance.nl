@@ -1,16 +1,18 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #EDE4D9;
+    background-color: rgba(237, 228, 217, 0.9);
+    /* Lichte transparantie */
     color: #5A4632;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #C4B6A5;
+    background-color: rgba(196, 182, 165, 0.9);
+    /* Lichte transparantie */
     padding: 1rem;
     text-align: center;
-    border-bottom: 2px solid #9C8F7A;
+    border-bottom: 2px solid rgba(156, 143, 122, 0.9);
 }
 
 header h1 {
@@ -24,7 +26,8 @@ nav {
 }
 
 nav button {
-    background-color: #9C8F7A;
+    background-color: rgba(156, 143, 122, 0.9);
+    /* Lichte transparantie */
     border: none;
     padding: 0.5rem 1rem;
     margin: 0 0.5rem;
@@ -35,27 +38,29 @@ nav button {
 }
 
 nav button:hover {
-    background-color: #7D6A59;
+    background-color: rgba(125, 106, 89, 0.9);
+    /* Lichte transparantie */
 }
 
 .search {
     display: flex;
     justify-content: center;
     margin: 1rem auto;
-    padding: 0.5rem;
 }
 
 .search input {
     padding: 0.8rem;
-    border: 1px solid #9C8F7A;
+    border: 1px solid rgba(156, 143, 122, 0.9);
     border-radius: 15px 0 0 15px;
     width: 80%;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Lichte transparantie */
 }
 
 .search button {
     padding: 0.8rem 1.5rem;
     border: none;
-    background-color: #9C8F7A;
+    background-color: rgba(156, 143, 122, 0.9);
     color: white;
     cursor: pointer;
     border-radius: 0 15px 15px 0;
@@ -69,7 +74,8 @@ nav button:hover {
 }
 
 .module {
-    background-color: #D4C4B5;
+    background-color: rgba(212, 196, 181, 0.9);
+    /* Lichte transparantie */
     padding: 1rem;
     border-radius: 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -81,52 +87,11 @@ nav button:hover {
     color: #3E2F23;
 }
 
-.module p {
-    color: #5A4632;
-}
-
-.auth {
-    display: flex;
-    justify-content: space-around;
-    padding: 1rem;
-}
-
-.auth div {
-    background-color: #D4C4B5;
-    padding: 1rem;
-    border-radius: 15px;
-    width: 45%;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.auth input {
-    display: block;
-    width: 90%;
-    margin: 0.5rem auto;
-    padding: 0.8rem;
-    border: 1px solid #9C8F7A;
-    border-radius: 10px;
-}
-
-.auth button {
-    display: block;
-    margin: 0.5rem auto;
-    background-color: #9C8F7A;
-    color: white;
-    border: none;
-    padding: 0.8rem 1.5rem;
-    border-radius: 15px;
-    cursor: pointer;
-}
-
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #C4B6A5;
+    background-color: rgba(196, 182, 165, 0.9);
+    /* Lichte transparantie */
     color: #3E2F23;
-    border-top: 2px solid #9C8F7A;
-
-    h1{
-        text-align: center;
-    }
+    border-top: 2px solid rgba(156, 143, 122, 0.9);
 }
